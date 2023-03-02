@@ -1,0 +1,33 @@
+h1 {
+	text-align: center;
+	font-size: 70px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-bottom: 0%;
+}
+h2{
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-top: 0%;
+	margin-bottom: 1.5cm;
+}
+html {
+	background-color: aquamarine;
+}
+body {
+	width: 600px;
+	margin: 0 auto;
+	background-color: pink;
+	padding: 0 10px 10px 10px;
+	border: 5px solid black;
+   } 
+img {
+	display: block;
+	margin: auto;
+}
+.ru_text1 {
+color: green;
+}
+.ru_text2 {
+	color: red;
+}
