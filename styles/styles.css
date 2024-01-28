@@ -1,0 +1,44 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#conchContainer {
+  cursor: pointer;
+  position: relative;
+}
+
+#conchImage {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto; /* Центрируем изображение */
+}
+
+#questionPrompt {
+  position: absolute;
+  top: 25%; /* Используем относительные единицы измерения */
+  text-align: center;
+  font-size: 5vw; /* Используйте vw для относительного размера на основе ширины viewport */
+  max-width: 600px; /* Ограничьте максимальную ширину текста, чтобы он не становился слишком широким на больших экранах */
+  margin: 0 auto; /* Центрируйте текст по горизонтали */
+}
+
+@media screen and (min-width: 768px) {
+  #questionPrompt {
+    font-size: 2rem; /* При достижении минимальной ширины viewport (например, для десктопов), используйте фиксированный размер в единицах rem */
+  }
+}
+
+#authorLink {
+  position: fixed;
+  bottom: 20px;
+  text-align: center;
+  font-size: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+}
